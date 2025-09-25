@@ -670,6 +670,66 @@ nav{
     .container {
         padding: 0 1rem;
     }
+    
+    /* Checkout inputs mobile refinements */
+    .checkout__form {
+        padding: 1.25rem;
+        border-radius: 15px;
+    }
+    
+    .form {
+        padding: 1rem;
+        margin: 0;
+        background: var(--white);
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+    
+    .form__row {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .form__group {
+        margin-bottom: 1rem;
+    }
+    
+    .form__group input,
+    .form__group select,
+    .form__group textarea {
+        padding: 0.95rem 1rem;
+        font-size: 1rem; /* prevent iOS zoom */
+        border-radius: 12px;
+        border-width: 2px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    
+    .form__group label {
+        top: 0.95rem;
+        left: 0.9rem;
+        font-size: 0.95rem;
+        background: var(--white);
+    }
+    
+    .form__group input:focus + label,
+    .form__group input:valid + label,
+    .form__group select:focus + label,
+    .form__group select:valid + label,
+    .form__group textarea:focus + label,
+    .form__group textarea:valid + label {
+        top: -0.55rem;
+        left: 0.6rem;
+        font-size: 0.78rem;
+        padding: 0 0.4rem;
+        border-radius: 6px;
+    }
+    
+    /* Improve touch targets for cart qty on checkout page */
+    .qty__btn {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
 }
 
 /* Tablet and Desktop */
