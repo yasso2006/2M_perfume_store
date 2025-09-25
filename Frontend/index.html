@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>2M Perfume Store</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="/index.html" style="text-decoration: none"
+            >2M Perfume <span>Store</span></a
+          >
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav__links">
+        <li>
+          <a href="/index.html" class="active" style="text-decoration: none"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a href="/contact.html" style="text-decoration: none">Contact</a>
+        </li>
+      </ul>
+
+      <div id="cart"></div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img src="/images/hero.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h5>we buy just</h5>
+        <h1>premium perfume</h1>
+        <p>viktor & rolf perfume</p>
+      </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section class="products__section">
+      <div class="container" id="root"></div>
+    </section>
+    <footer id="footer"></footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>

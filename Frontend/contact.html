@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Contact - 2M Perfume Store</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html" style="text-decoration: none"
+            >2M Perfume <span>Store</span></a
+          >
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div id="cart"></div>
+    </nav>
+
+    <main class="contact__page">
+      <div class="container">
+        <div class="page__header">
+          <h1>Get In Touch</h1>
+          <p>
+            We'd love to hear from you. Send us a message and we'll respond as
+            soon as possible.
+          </p>
+        </div>
+
+        <div class="contact__content">
+          <div class="contact__info">
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="ri-phone-line"></i>
+              </div>
+              <div class="contact__details">
+                <h3>Phone</h3>
+                <p>+20 120 548 2464</p>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="ri-mail-line"></i>
+              </div>
+              <div class="contact__details">
+                <h3>Email</h3>
+                <p>2m_perfume@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div id="root"></div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="/script.js"></script>
+    <script type="module" src="/src/contact.jsx"></script>
+  </body>
+</html>

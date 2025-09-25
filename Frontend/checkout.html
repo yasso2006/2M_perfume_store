@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Checkout - 2M Perfume Store</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html" style="text-decoration: none"
+            >2M Perfume <span>Store</span></a
+          >
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div id="cart"></div>
+    </nav>
+
+    <main class="checkout__page">
+      <div class="container">
+        <div class="page__header">
+          <h1>Checkout</h1>
+          <p>Complete your order</p>
+        </div>
+        <div id="root"></div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="/script.js"></script>
+    <script type="module" src="/src/checkout.jsx"></script>
+  </body>
+</html>
