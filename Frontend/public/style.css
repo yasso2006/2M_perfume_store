@@ -569,8 +569,7 @@ nav{
     }
     
     .form__row {
-        grid-template-columns: 1fr;
-        gap: 0;
+        display: block !important;
     }
     
     .form__group {
@@ -683,11 +682,6 @@ nav{
         background: var(--white);
         border-radius: 12px;
         box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    }
-    
-    .form__row {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
     }
     
     .form__group {
