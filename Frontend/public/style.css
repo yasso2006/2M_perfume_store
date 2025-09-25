@@ -602,17 +602,17 @@ nav{
     
     /* Checkout mobile */
     .checkout__page {
-        padding-top: 5rem;
+        padding-top: 4rem;
     }
     
     .checkout__content {
         grid-template-columns: 1fr;
-        gap: 2rem;
-        margin-top: 2rem;
+        gap: 1.25rem;
+        margin-top: 1rem;
     }
     
     .checkout__section {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     
     .checkout__section h2 {
@@ -621,8 +621,8 @@ nav{
     }
     
     .order__summary {
-        padding: 1.5rem;
-        margin: 0 1rem;
+        padding: 1.25rem;
+        margin: 0 0.5rem;
     }
     
     .cart__item {
@@ -668,7 +668,7 @@ nav{
     
     /* Container mobile */
     .container {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
     
     /* Checkout inputs mobile refinements */
