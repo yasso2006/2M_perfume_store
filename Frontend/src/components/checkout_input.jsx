@@ -513,10 +513,6 @@ function Checkout() {
         >
           {isLoading ? "Processing..." : "Complete Order"}
         </button>
-
-        <p className="checkout__help">
-          * All fields are required. Orders are processed within 24 hours.
-        </p>
       </div>
     </div>
   );
